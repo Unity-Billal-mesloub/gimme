@@ -8,13 +8,6 @@ Install go, yay!
 
 Install from github:
 
-``` bash
-# assumes ~/bin exists and is in $PATH, so adjust accordingly!
-
-curl -sL -o ~/bin/gimme https://raw.githubusercontent.com/travis-ci/gimme/main/gimme
-chmod +x ~/bin/gimme
-```
-
 [Homebrew](http://brew.sh) (OS X):
 
 ```bash
