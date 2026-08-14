@@ -11,7 +11,7 @@ Install from github:
 ``` bash
 # assumes ~/bin exists and is in $PATH, so adjust accordingly!
 
-curl -sL -o ~/bin/gimme https://raw.githubusercontent.com/travis-ci/gimme/master/gimme
+curl -sL -o ~/bin/gimme https://raw.githubusercontent.com/travis-ci/gimme/main/gimme
 chmod +x ~/bin/gimme
 ```
 
@@ -61,7 +61,7 @@ eval "$(gimme 1.4)"
 # or if you can't stand the thought of using `eval`:
 
 gimme 1.4
-source ~/.gimme/envs/go1.4.env
+source ~/gimme/envs/go1.4.env
 ```
 
 Or run without installing gimme:
