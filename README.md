@@ -66,9 +66,6 @@ source ~/gimme/envs/go1.4.env
 
 Or run without installing gimme:
 
-``` bash
-eval "$(curl -sL https://raw.githubusercontent.com/travis-ci/gimme/master/gimme | GIMME_GO_VERSION=1.4 bash)"
-```
 
 To install and use the current stable release of Go:
 
@@ -85,7 +82,7 @@ gimme oldstable
 Or to install and use the development version (master branch) of Go:
 
 ``` bash
-gimme master
+gimme main
 ```
 
 To list installed versions of Go:
